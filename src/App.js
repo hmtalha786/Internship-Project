@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from './components/header';
 import Slides from "./components/slides";
 import Who from "./components/who";
@@ -8,9 +7,8 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header/>
-      <br/><br/><br/><br/>
       <Slides/>
       <br/><br/>
       <Who/>
