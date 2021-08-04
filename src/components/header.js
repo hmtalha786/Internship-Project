@@ -1,29 +1,37 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import "./header.css";
 
 const Header = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" fixed="top">
-        <Container>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Navbar.Brand href="#">Scientific Bit</Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link href="#">Home</Nav.Link>
-              <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#">Services</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
-            </Nav>
-            <Navbar.Collapse className="justify-content-end">
-              <Navbar.Text>
-                Signed in as: <a href="#l">info@ScientificBit</a>
-              </Navbar.Text>
-            </Navbar.Collapse>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      <nav>
+        <input id="nav-toggle" type="checkbox" />
+        <div className="logo">
+          Scientific<strong>Bit</strong>
+        </div>
+        <ul className="links">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#work">Services</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </label>
+      </nav>
     </div>
   );
 };
