@@ -1,49 +1,29 @@
 import React from "react";
+import dev from "../images/dev.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 const Slides = () => {
   return (
     <div>
-      <Carousel fade>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSob1fKOSo6VXVRZaHDxRaIP0SeS85TZwA5Bkqjnj4lbKt044dd3yz8Vhs6hUjCLDkfBU8&usqp=CAU"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkc5ctS5NcpUfpSSf4E5yTlT5hdBjAd8cPT0w3lqBdoVtUby_LEgtkz-wmOMS8MM0a5No&usqp=CAU"
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQas4U22YJW_WEYm7UMsl2N9mixzqqzFSws0r4nDMWeJEC3CCNxg1L1vB_H_gFyBkKCqbo&usqp=CAU"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
+      <Container>
+        <Row>
+          <Col>
+            <p>Say hello to the pakistan</p>
+            <h3>We provide solutions for your bussinues</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Adele stopped singing due to damage to her vocal cords, which
+              prevented her from singing on the doctor's advice to avoid further
+              damage. Adele announced she left music on Twitter, explaining the
+              reason we mentioned, but Adele plans to return gradually.
             </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+            <Button variant="outline-primary">Primary</Button>{' '}
+          </Col>
+          <Col>
+            <img src={dev} className="" alt="logo" />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
