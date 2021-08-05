@@ -11,11 +11,8 @@ function App() {
       <Header/>
       <Slides/>
       <Who/>
-      <br/><br/>
       <What/>
-      <br/><br/>
       <Why/>
-      <br/><br/>
       <Footer/>
     </div>
   );
