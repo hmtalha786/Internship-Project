@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "../css/header.css";
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <nav>
         <input id="nav-toggle" type="checkbox" />
         <div className="logo">
-          Scientific<strong>Bit</strong>
+          <strong>S</strong>cientific<strong>Bit</strong>
         </div>
         <ul className="links">
           <li>

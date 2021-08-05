@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/slides.css";
 import business from "../images/business.svg";
 import value from "../images/value.svg";
 import solutions from "../images/solutions.svg";
@@ -19,7 +20,7 @@ const Slides = () => {
                 <br />
                 <h6>Software & the industry redefined</h6>
                 <br />
-                <h3>PROVIDING SOLUTIONS FOR FUTURE BUSSINESS</h3>
+                <h3 className="text">PROVIDING SOLUTIONS FOR FUTURE BUSSINESS</h3>
                 <br />
                 <p>
                   We're Engineers driven by a purpose. Our mission is to use
@@ -42,7 +43,7 @@ const Slides = () => {
                 <br />
                 <h6>Software & the industry redefined</h6>
                 <br />
-                <h3>DEVELOPING SOLUTIONS THROUGH INNOVATION</h3>
+                <h3 className="text">DEVELOPING SOLUTIONS THROUGH INNOVATION</h3>
                 <br />
                 <p>
                   We simply cannot attempt to be innovative while holding on to
@@ -65,7 +66,7 @@ const Slides = () => {
                 <br />
                 <h6>Software & the industry redefined</h6>
                 <br />
-                <h3>ADDING VALUE TO THE SOCIETY AND LIFE</h3>
+                <h3 className="text">ADDING VALUE TO THE SOCIETY AND LIFE</h3>
                 <br />
                 <p>
                   As it is said "Data is the new oil” , just like oil...raw data

@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/who.css"
 import innovation from "../images/innovation.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -13,7 +14,7 @@ const Who = () => {
           </Col>
           <Col xs={12} md={6}>
             <h5>About Us</h5>
-            <h2>Who we are ...</h2>
+            <h2 className="text">Who we are ...</h2>
             <p>
               We're Engineers driven by a purpose. Our mission is to use
               technology to serve humanity to achieve its full potential.We are
