@@ -1,53 +1,81 @@
 import React from "react";
-import { Col, Container, Row, Card } from "react-bootstrap";
+import web from "../images/web.svg";
+import mobile from "../images/mobile.svg";
+import seo from "../images/seo.svg";
+import { Col, Container, Row } from "react-bootstrap";
 
 const What = () => {
   return (
     <div>
-      <h4>What we do ...</h4>
-      <p>
-        In publishing and graphic design, Lorem ipsum is a placeholder text
-        commonly used to demonstrate the visual form of a document or a typeface
-        without relying on meaningful content. Lorem ipsum may be used as a
-        placeholder before final copy is available.
-      </p>
       <Container>
-        <Row>
-          <Col>
-            <Card border="dark" style={{ width: "18rem" }}>
-              <Card.Header>Header</Card.Header>
-              <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+        <Row className="justify-content-md-center">
+          <Col xs="auto">
+            <h5>Our Services</h5>
           </Col>
-          <Col>
-            <Card border="dark" style={{ width: "18rem" }}>
-              <Card.Header>Header</Card.Header>
-              <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+        </Row>
+        <br />
+        <Row className="justify-content-md-center">
+          <Col xs="auto">
+            <h6>We set the platform to turn great ideas into reality</h6>
           </Col>
-          <Col>
-            <Card border="dark" style={{ width: "18rem" }}>
-              <Card.Header>Header</Card.Header>
-              <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+        </Row>
+        <br />
+        <Row className="justify-content-md-center">
+          <Col xs="auto">
+            <p>
+              We aspire to raise the bar of technology to make your lives
+              meaningfully easier & help you focus on the things that matter to
+              you the most. We excel in the following services, but as it’s said
+              : The sky is the limit!
+            </p>
+          </Col>
+        </Row>
+        <br /><br />
+        <Row className="justify-content-md-center">
+          <Col xs={12} md={4}>
+            <img src={web} className="" alt="logo" />
+          </Col>
+          <Col xs={12} md={6}>
+            <h5>Web Application Development</h5><hr/>
+            <p>
+              Web development is the work involved in developing a Web site for
+              the Internet or an intranet. Web development can range from
+              developing a simple single static page of plain text to complex
+              web applications, electronic businesses, and social network
+              services.
+            </p>
+          </Col>
+        </Row>
+        <br /><br />
+        <Row className="justify-content-md-center">
+          <Col xs={12} md={6}>
+            <h5>Mobile Application Development</h5><hr/>
+            <p>
+              Web development is the work involved in developing a Web site for
+              the Internet or an intranet. Web development can range from
+              developing a simple single static page of plain text to complex
+              web applications, electronic businesses, and social network
+              services.
+            </p>
+          </Col>
+          <Col xs={12} md={4}>
+            <img src={mobile} className="" alt="logo" />
+          </Col>
+        </Row>
+        <br /><br />
+        <Row className="justify-content-md-center">
+          <Col xs={12} md={4}>
+            <img src={seo} className="" alt="logo" />
+          </Col>
+          <Col xs={12} md={6}>
+            <h5>SEO (Search Engine Optimization)</h5><hr/>
+            <p>
+              Web development is the work involved in developing a Web site for
+              the Internet or an intranet. Web development can range from
+              developing a simple single static page of plain text to complex
+              web applications, electronic businesses, and social network
+              services.
+            </p>
           </Col>
         </Row>
       </Container>

@@ -1,45 +1,32 @@
 import React from "react";
-import dev from "../images/dev.svg";
+import innovation from "../images/innovation.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Who = () => {
   return (
     <div>
-      <h4>Who we are ...</h4>
-      <p>
-        In publishing and graphic design, Lorem ipsum is a placeholder text
-        commonly used to demonstrate the visual form of a document or a typeface
-        without relying on meaningful content. Lorem ipsum may be used as a
-        placeholder before final copy is available.
-      </p>
-      <br />
       <Container>
-        <Row>
-          <Col>
-            <img src={dev} className="" alt="logo" />
+        <Row className="justify-content-md-center">
+          <Col xs={12} md={6}>
+            <img src={innovation} className="" alt="logo" />
           </Col>
-          <Col>
-            <h6>We provide solutions for your bussinues</h6>
+          <Col xs={12} md={6}>
+            <h5>About Us</h5>
+            <h2>Who we are ...</h2>
             <p>
-              Adele stopped singing due to damage to her vocal cords, which
-              prevented her from singing on the doctor's advice to avoid further
-              damage. Adele announced she left music on Twitter, explaining the
-              reason we mentioned, but Adele plans to return gradually.
+              We're Engineers driven by a purpose. Our mission is to use
+              technology to serve humanity to achieve its full potential.We are
+              experienced in turning entrepreneurial dreams into reality.
+              However, ask us about our most valuable product, and we will say
+              It's our team.
             </p>
-            <h6>We provide solutions for your bussinues</h6>
             <p>
-              Adele stopped singing due to damage to her vocal cords, which
-              prevented her from singing on the doctor's advice to avoid further
-              damage. Adele announced she left music on Twitter, explaining the
-              reason we mentioned, but Adele plans to return gradually.
-            </p>
-            <h6>We provide solutions for your bussinues</h6>
-            <p>
-              Adele stopped singing due to damage to her vocal cords, which
-              prevented her from singing on the doctor's advice to avoid further
-              damage. Adele announced she left music on Twitter, explaining the
-              reason we mentioned, but Adele plans to return gradually.
+              We're programmers, researchers, and consultants who take
+              responsibility and pride in the way we work & we will not only
+              develop your software but help you set your direction right to get
+              the most out of your software because only then technology would
+              serve humanity to achieve it's full potential.
             </p>
           </Col>
         </Row>

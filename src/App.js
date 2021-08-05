@@ -10,7 +10,6 @@ function App() {
     <div>
       <Header/>
       <Slides/>
-      <br/><br/>
       <Who/>
       <br/><br/>
       <What/>

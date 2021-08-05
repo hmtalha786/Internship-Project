@@ -83,9 +83,6 @@ const Slides = () => {
           </Container>
         </Carousel.Item>
       </Carousel>
-      <br />
-      <br />
-      <br />
     </div>
   );
 };
