@@ -1,21 +1,28 @@
-import Header from './components/header';
-import Slides from "./components/slides";
-import Who from "./components/who";
-import What from "./components/what";
-import Why from "./components/why";
-import Footer from "./components/footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import About from "./components/About"
+import Service from "./components/Service"
+import Project from "./components/Project"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Slides/>
-      <Who/>
-      <What/>
-      <Why/>
-      <Footer/>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/services" component={Service}/>
+          <Route path="/projects" component={Project}/>
+          <Route path="/contact" component={Contact}/>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
