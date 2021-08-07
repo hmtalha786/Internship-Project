@@ -3,6 +3,7 @@ import "../css/what.css";
 import web from "../images/web.svg";
 import mobile from "../images/mobile.svg";
 import seo from "../images/seo.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Container, Row } from "react-bootstrap";
 
 const What = () => {

@@ -22,33 +22,7 @@ const Project = () => {
           </Col>
         </Row>
 
-        <Row className="justify-content-md-center">
-          <Col xs="auto">
-            <p>
-              From pure research to building large scale distributed systems,
-              our expertise are broad yet focused.
-            </p>
-          </Col>
-        </Row>
-
-        <Row className="justify-content-md-center my-5">
-          <Col xs={3} className="text-center">
-            <h6 className="text">Clients</h6>
-            <strong>36</strong>
-          </Col>
-          <Col xs={3} className="text-center">
-            <h6 className="text">Completed Projects</h6>
-            <strong>384</strong>
-          </Col>
-          <Col xs={3} className="text-center">
-            <h6 className="text">Under Development</h6>
-            <strong>16</strong>
-          </Col>
-          <Col xs={3} className="text-center">
-            <h6 className="text">Workers</h6>
-            <strong>21</strong>
-          </Col>
-        </Row>
+        
 
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4}>
@@ -92,6 +66,34 @@ const Project = () => {
               eliminating negative externalities to help you achieve your goals
               through meaningful software.
             </p>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center">
+          <Col xs="auto">
+            <p>
+              From pure research to building large scale distributed systems,
+              our expertise are broad yet focused.
+            </p>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center my-5">
+          <Col xs={3} className="text-center">
+            <h6 className="text">Clients</h6>
+            <strong>36</strong>
+          </Col>
+          <Col xs={3} className="text-center">
+            <h6 className="text">Completed Projects</h6>
+            <strong>384</strong>
+          </Col>
+          <Col xs={3} className="text-center">
+            <h6 className="text">Under Development</h6>
+            <strong>16</strong>
+          </Col>
+          <Col xs={3} className="text-center">
+            <h6 className="text">Workers</h6>
+            <strong>21</strong>
           </Col>
         </Row>
       </Container>

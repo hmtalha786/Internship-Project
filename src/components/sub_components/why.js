@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/why.css";
 import choose from "../images/choose.svg";
 import mission from "../images/mission.svg";
 import idealogy from "../images/idealogy.svg";
@@ -7,7 +8,8 @@ import { Col, Container, Row } from "react-bootstrap";
 const Why = () => {
   return (
     <div>
-      <Container>
+      <Container fluid className="body">
+        <br/><br/><br/>
         <Row className="justify-content-md-center my-3">
           <Col xs="auto">
             <h3 className="text">Venture Philosophy & Work Experience</h3>
@@ -31,23 +33,25 @@ const Why = () => {
 
         <Row className="justify-content-md-center my-5">
           <Col xs={3} className="text-center">
-          <h6 className="text">Clients</h6>
-          <strong>36</strong>
+            <h6 className="text">Clients</h6>
+            <strong>36</strong>
           </Col>
           <Col xs={3} className="text-center">
-          <h6 className="text">Completed Projects</h6>
-          <strong>384</strong>
+            <h6 className="text">Completed Projects</h6>
+            <strong>384</strong>
           </Col>
           <Col xs={3} className="text-center">
-          <h6 className="text">Under Development</h6>
-          <strong>16</strong>
+            <h6 className="text">Under Development</h6>
+            <strong>16</strong>
           </Col>
           <Col xs={3} className="text-center">
-          <h6 className="text">Workers</h6>
-          <strong>21</strong>
+            <h6 className="text">Workers</h6>
+            <strong>21</strong>
           </Col>
         </Row>
-
+        <br/><br/>
+      </Container>
+      <Container>
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4}>
             <img src={choose} className="" alt="logo" />
@@ -93,6 +97,7 @@ const Why = () => {
           </Col>
         </Row>
       </Container>
+      <br/>
     </div>
   );
 };

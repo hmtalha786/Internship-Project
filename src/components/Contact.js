@@ -7,6 +7,20 @@ const Contact = () => {
       <br />
       <br />
       <Container>
+        <Row className="justify-content-md-center my-3">
+          <Col xs="auto">
+            <h3 className="text">Feel Free to Contact Us</h3>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center my-3">
+          <Col xs="auto">
+            <h6>Our door are always open for your valuable insights.</h6>
+          </Col>
+        </Row>
+
+        <br />
+
         <Row className="justify-content-md-center">
           <Col xs={12} md={6}>
             <Form>

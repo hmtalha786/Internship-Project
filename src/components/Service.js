@@ -10,11 +10,12 @@ const Service = () => {
       <br />
       <br />
       <Container>
-        {/* <Row className="justify-content-md-center my-3">
+        
+        <Row className="justify-content-md-center my-3">
           <Col xs="auto">
             <h3 className="text">Our Services</h3>
           </Col>
-        </Row> */}
+        </Row>
 
         <Row className="justify-content-md-center my-3">
           <Col xs="auto">
