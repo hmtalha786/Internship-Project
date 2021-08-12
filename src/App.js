@@ -5,7 +5,6 @@ import Service from "./components/Service"
 import Project from "./components/Project"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer";
-import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {

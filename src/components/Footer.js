@@ -15,15 +15,10 @@ const Footer = () => {
                 <strong>S</strong>cientific<strong>Bit</strong>
               </h3>
               <p>
-                We're Engineers driven by a purpose. Our mission is to use
-                technology to serve humanity to achieve its full potential. We
-                are experienced in turning entrepreneurial dreams into reality.
-              </p>
-              <p>
-                We simply cannot attempt to be innovative while holding on to
-                the same mindset as we had before, therefore Techwards is
-                evolving holistically to engage new technological challenges
-                head on.
+                ScientificBit is an information technology, consulting, and
+                business solutions company that helps enterprises use innovation
+                and emerging technologies to digitally transform their
+                businesses.
               </p>
             </Col>
 
@@ -56,7 +51,7 @@ const Footer = () => {
                 <strong>Email : </strong>info@scientificbit
               </p>
               <p>
-                <strong>Phone : </strong>+92-3002984139
+                <strong>Phone : </strong>+923002984139
               </p>
             </Col>
           </Row>
