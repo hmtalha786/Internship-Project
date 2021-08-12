@@ -1,7 +1,12 @@
 import React from "react";
 import "./css/footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,6 +20,7 @@ const Footer = () => {
                 Scientific<strong className="red">bit</strong>
               </h2>
               <h6>Software solutions and Services</h6>
+              <br />
               <p>
                 ScientificBit is an information technology, consulting, and
                 business solutions company that helps enterprises use innovation
@@ -24,28 +30,26 @@ const Footer = () => {
             </Col>
 
             <Col xs={12} md={2}>
-              <h3 className="text">User Links</h3>
-              <Link to="/">
-                <h6>Home</h6>
-              </Link>
-              <Link to="/about">
-                <h6>About</h6>
-              </Link>
-              <Link to="/services">
-                <h6>Services</h6>
-              </Link>
-              <Link to="/projects">
-                <h6>Projects</h6>
-              </Link>
-              <Link to="/contact">
-                <h6>Contact</h6>
-              </Link>
+              <h3 className="text">Follow Us</h3>
+              <br />
+              <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+              <strong> Facebook</strong>
+              <br />
+              <br />
+              <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+              <strong> Twitter</strong>
+              <br />
+              <br />
+              <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+              <strong> LinkedIn</strong>
             </Col>
 
             <Col xs={12} md={5}>
               <h4 className="text">CONTACT US</h4>
+              <br />
               <p>
-                <strong>Address : </strong>Gulistan-e-Johar, Karachi, Sindh, Pakistan
+                <strong>Address : </strong>Gulistan-e-Johar, Karachi, Sindh,
+                Pakistan
               </p>
               <p>
                 <strong>Email : </strong>info@scientificbit

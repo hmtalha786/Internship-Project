@@ -8,9 +8,11 @@ const Header = () => {
     <div>
       <nav>
         <input id="nav-toggle" type="checkbox" />
+        <Link to="/">
         <div className=" logo">
         <img src={logo} className="" alt="logo" />
         </div>
+        </Link>
         <ul className="links">
           <Link to="/">
             <li>Home</li>

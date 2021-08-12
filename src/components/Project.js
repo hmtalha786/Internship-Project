@@ -1,28 +1,32 @@
 import React from "react";
-import choose from "./images/choose.svg";
-import mission from "./images/mission.svg";
-import idealogy from "./images/idealogy.svg";
-import { Col, Container, Row } from "react-bootstrap";
+import P1 from "./images/P1.png";
+import P3 from "./images/P3.jpg";
+import P4 from "./images/P4.jpeg";
+import P5 from "./images/P5.png";
+import { Col, Container, Row, Card } from "react-bootstrap";
 
 const Project = () => {
   return (
     <div>
       <br />
       <br />
-      <Container>
+      <br />
+
+      <Container fluid className="body">
+        <br />
+        <br />
+        <br />
         <Row className="justify-content-md-center my-3">
           <Col xs="auto">
-            <h3 className="text">Venture Philosophy & Work Experience</h3>
+            <h3 className="text">Contributions & Projects</h3>
           </Col>
         </Row>
 
-        <Row className="justify-content-md-center">
+        <Row className="justify-content-md-center my-3">
           <Col xs="auto">
-            <h6>We set goals and make them reality</h6>
+            <h6>We set the platform to turn great ideas into reality</h6>
           </Col>
         </Row>
-
-        <br />
 
         <Row className="justify-content-md-center my-5">
           <Col xs={3} className="text-center">
@@ -42,50 +46,85 @@ const Project = () => {
             <strong>21</strong>
           </Col>
         </Row>
-
         <br />
+        <br />
+      </Container>
 
-        <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <img src={choose} className="" alt="logo" />
+      <Container>
+        <Row className="justify-content-md-center my-3">
+          <Col xs="auto">
+            <h3 className="text">Our Projects</h3>
           </Col>
-          <Col xs={12} md={6}>
-            <h3 className="text">Why us</h3>
-            <p>
-              We are driven by our values & principles. At Techwards, we deliver
-              results while following the right practices. We believe in
-              eliminating negative externalities to help you achieve your goals
-              through meaningful software.
-            </p>
+        </Row>
+        <Row className="justify-content-md-center my-3">
+          <Col xs="auto">
+            <h6>Some of our contributions in the digital world</h6>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4}>
-            <img src={mission} className="" alt="logo" />
+            <Card border="light" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={P1} />
+            </Card>
           </Col>
           <Col xs={12} md={6}>
             <h3 className="text">Our Mission</h3>
             <p>
-              We are driven by our values & principles. At Techwards, we deliver
-              results while following the right practices. We believe in
-              eliminating negative externalities to help you achieve your goals
-              through meaningful software.
+              Our mission is to empower visionaries to transform their ideas
+              into reality. We Build innovative Aapplications for Startups and
+              Corporations to fulfill their business needs. Look no further, We
+              are here to guide and find success for you in the digital world.
             </p>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4}>
-            <img src={idealogy} className="" alt="logo" />
+            <Card border="light" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={P3} />
+            </Card>
           </Col>
           <Col xs={12} md={6}>
-            <h3 className="text">Our Idealogy</h3>
+            <h3 className="text">Our Mission</h3>
             <p>
-              We are driven by our values & principles. At Techwards, we deliver
-              results while following the right practices. We believe in
-              eliminating negative externalities to help you achieve your goals
-              through meaningful software.
+              Our mission is to empower visionaries to transform their ideas
+              into reality. We Build innovative Aapplications for Startups and
+              Corporations to fulfill their business needs. Look no further, We
+              are here to guide and find success for you in the digital world.
+            </p>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center my-5">
+          <Col xs={12} md={4}>
+            <Card border="light" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={P4} />
+            </Card>
+          </Col>
+          <Col xs={12} md={6}>
+            <h3 className="text">Our Mission</h3>
+            <p>
+              Our mission is to empower visionaries to transform their ideas
+              into reality. We Build innovative Aapplications for Startups and
+              Corporations to fulfill their business needs. Look no further, We
+              are here to guide and find success for you in the digital world.
+            </p>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center my-5">
+          <Col xs={12} md={4}>
+            <Card border="light" style={{ width: "18rem" }}>
+              <Card.Img variant="top" src={P5} />
+            </Card>
+          </Col>
+          <Col xs={12} md={6}>
+            <h3 className="text">Our Mission</h3>
+            <p>
+              Our mission is to empower visionaries to transform their ideas
+              into reality. We Build innovative Aapplications for Startups and
+              Corporations to fulfill their business needs. Look no further, We
+              are here to guide and find success for you in the digital world.
             </p>
           </Col>
         </Row>
