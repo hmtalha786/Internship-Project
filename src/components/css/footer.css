@@ -1,7 +1,19 @@
 .text{
-    color: #6C63FF;
+    color: firebrick;
 }
 
 .body{
     background-color: #FAFAFA;
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: firebrick;
+}
+
+h6 {
+    color: black;
 }

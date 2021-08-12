@@ -11,9 +11,10 @@ const Footer = () => {
         <Container>
           <Row className="justify-content-md-center">
             <Col xs={12} md={5}>
-              <h3 className="text">
-                <strong>S</strong>cientific<strong>Bit</strong>
-              </h3>
+              <h2 className="">
+                Scientific<strong className="red">bit</strong>
+              </h2>
+              <h6>Software solutions and Services</h6>
               <p>
                 ScientificBit is an information technology, consulting, and
                 business solutions company that helps enterprises use innovation
@@ -44,14 +45,13 @@ const Footer = () => {
             <Col xs={12} md={5}>
               <h4 className="text">CONTACT US</h4>
               <p>
-                <strong>Address : </strong>A108 Adam Street New York, NY 535022
-                United States
+                <strong>Address : </strong>Gulistan-e-Johar, Karachi, Sindh, Pakistan
               </p>
               <p>
                 <strong>Email : </strong>info@scientificbit
               </p>
               <p>
-                <strong>Phone : </strong>+923002984139
+                <strong>Phone : </strong>+92-3003926373
               </p>
             </Col>
           </Row>
@@ -60,7 +60,7 @@ const Footer = () => {
           <hr />
           <Row className="justify-content-md-center text-center">
             <h6 className="text">
-              © Copyright ScientificBit All Rights Reserved
+              © Copyright ScientificBit. All Rights Reserved
             </h6>
           </Row>
           <br />

@@ -42,7 +42,7 @@ const Contact = () => {
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
               <div className="text-center">
-                <Button variant="outline-primary" type="submit">
+                <Button variant="outline-danger" type="submit">
                   Submit
                 </Button>
               </div>

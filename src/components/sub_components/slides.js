@@ -8,7 +8,7 @@ import { Container, Row, Col, Carousel } from "react-bootstrap";
 
 const Slides = () => {
   return (
-    <div className="">
+    <div>
       <br />
       <br />
       <Carousel variant="dark">
