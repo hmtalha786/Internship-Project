@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/header.css";
-import logo from './images/logo.png';
+import logo from "./images/logo.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -9,9 +9,9 @@ const Header = () => {
       <nav>
         <input id="nav-toggle" type="checkbox" />
         <Link to="/">
-        <div className=" logo">
-        <img src={logo} className="" alt="logo" />
-        </div>
+          <div className=" logo">
+            <img src={logo} className="" alt="logo" />
+          </div>
         </Link>
         <ul className="links">
           <Link to="/">

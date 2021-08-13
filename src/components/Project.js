@@ -3,7 +3,7 @@ import P1 from "./images/P1.png";
 import P3 from "./images/P3.jpg";
 import P4 from "./images/P4.jpeg";
 import P5 from "./images/P5.png";
-import { Col, Container, Row, Card } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Project = () => {
   return (
@@ -62,14 +62,17 @@ const Project = () => {
           </Col>
         </Row>
 
+        <br />
+
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <Card border="light" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={P1} />
-            </Card>
+          <Col xs={12} md={2} className="mx-auto">
+            <a href="#">
+              <img variant="top" src={P1} alt="NAEQUO" />
+            </a>
           </Col>
-          <Col xs={12} md={6}>
-            <h3 className="text">Our Mission</h3>
+
+          <Col xs={12} md={8}>
+            <h3 className="text">NAEQUO</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
               into reality. We Build innovative Aapplications for Startups and
@@ -80,13 +83,19 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <Card border="light" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={P3} />
-            </Card>
+          <Col xs={12} md={2} className="mx-auto">
+            <a href="#">
+              <img
+                variant="top"
+                src={P4}
+                style={{ width: "120%" }}
+                alt="Turz Hub"
+              />
+            </a>
           </Col>
-          <Col xs={12} md={6}>
-            <h3 className="text">Our Mission</h3>
+
+          <Col xs={12} md={8}>
+            <h3 className="text">Turz Hub</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
               into reality. We Build innovative Aapplications for Startups and
@@ -97,13 +106,19 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <Card border="light" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={P4} />
-            </Card>
+          <Col xs={12} md={2} className="mx-auto">
+            <a href="#">
+              <img
+                variant="top"
+                src={P3}
+                style={{ width: "70%" }}
+                alt="Quetry"
+              />
+            </a>
           </Col>
-          <Col xs={12} md={6}>
-            <h3 className="text">Our Mission</h3>
+
+          <Col xs={12} md={8}>
+            <h3 className="text">Quetry</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
               into reality. We Build innovative Aapplications for Startups and
@@ -112,14 +127,15 @@ const Project = () => {
             </p>
           </Col>
         </Row>
+
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <Card border="light" style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={P5} />
-            </Card>
+          <Col xs={12} md={2} className="mx-auto">
+            <a href="#">
+              <img src={P5} style={{ width: "70%" }} alt="Snoonu" />
+            </a>
           </Col>
-          <Col xs={12} md={6}>
-            <h3 className="text">Our Mission</h3>
+          <Col xs={12} md={8}>
+            <h3 className="text">Snoonu</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
               into reality. We Build innovative Aapplications for Startups and
