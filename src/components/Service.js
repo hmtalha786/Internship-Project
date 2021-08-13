@@ -10,7 +10,6 @@ const Service = () => {
       <br />
       <br />
       <Container>
-        
         <Row className="justify-content-md-center my-3">
           <Col xs="auto">
             <h3 className="text">Our Services</h3>
@@ -34,9 +33,7 @@ const Service = () => {
 
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4}>
-            <br />
-            <br />
-            <img src={web} className="" alt="logo" />
+            <img src={web} className="my-5" alt="logo" />
           </Col>
           <Col xs={12} md={6}>
             <h5 className="text">Full Stack Development</h5>
@@ -58,6 +55,9 @@ const Service = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
+          <Col xs={12} md={4}>
+            <img src={mobile} className="my-5" alt="logo" />
+          </Col>
           <Col xs={12} md={6}>
             <h5 className="text">Mobile Application Development</h5>
             <hr />
@@ -74,18 +74,11 @@ const Service = () => {
               compromising on performance or key requirements of your software.
             </p>
           </Col>
-          <Col xs={12} md={4}>
-            <br />
-            <br />
-            <img src={mobile} className="" alt="logo" />
-          </Col>
         </Row>
 
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4}>
-            <br />
-            <br />
-            <img src={seo} className="" alt="logo" />
+            <img src={seo} className="my-5" alt="logo" />
           </Col>
           <Col xs={12} md={6}>
             <h5 className="text">SEO & Quality Assurance</h5>

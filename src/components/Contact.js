@@ -19,11 +19,9 @@ const Contact = () => {
             <h6>Our door are always open for your valuable insights.</h6>
           </Col>
         </Row>
-        <br />
-        <br />
-        <br />
+        
         <Row className="justify-content-md-center">
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="my-5">
             <Row className="justify-content-md-center">
               <Col xs="auto">
                 <h3 className="text">Contact Information</h3>
@@ -56,7 +54,7 @@ const Contact = () => {
             </Row>
           </Col>
 
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="my-5">
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label className="text">Full Name</Form.Label>

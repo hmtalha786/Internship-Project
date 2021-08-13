@@ -11,7 +11,7 @@ const Slides = () => {
     <div>
       <br />
       <br />
-      <Carousel variant="dark">
+      <Carousel variant="dark" controls={false}>
         <Carousel.Item>
           <Container>
             <Row className="justify-content-md-center">
@@ -20,7 +20,7 @@ const Slides = () => {
                 <br />
                 <h6>Softwares for Bussiness</h6>
                 <br />
-                <h3 className="text">PROVIDING SOLUTIONS FOR YOUR BUSSINESS</h3>
+                <h3 className="text">PROVIDING SOLUTIONS & SERVICES FOR YOUR BUSSINESS</h3>
                 <br />
                 <p>
                   Here at ScientificBit we design and develop Bussiness
@@ -31,7 +31,7 @@ const Slides = () => {
                   reality.
                 </p>
               </Col>
-              <Col xs={12} md={5}>
+              <Col xs={12} md={{ span:5, offset:1 }}>
                 <img src={business} className="" alt="logo" />
               </Col>
             </Row>
@@ -56,7 +56,7 @@ const Slides = () => {
                   services focused on new digital skills and technologies.
                 </p>
               </Col>
-              <Col xs={12} md={5}>
+              <Col xs={12} md={{ span:5, offset:1 }}>
                 <img src={solutions} className="" alt="logo" />
               </Col>
             </Row>
@@ -70,7 +70,7 @@ const Slides = () => {
                 <br />
                 <h6>Towards a better world</h6>
                 <br />
-                <h2 className="text">ADDING VALUE TO THE LIFE</h2>
+                <h2 className="text">ADDING VALUE TO THE SOCIETY AND LIFE</h2>
                 <br />
                 <p>
                   Enabling the business operation by helping customer gain
@@ -79,7 +79,7 @@ const Slides = () => {
                   without degrading the user experience
                 </p>
               </Col>
-              <Col xs={12} md={5}>
+              <Col xs={12} md={{ span:5, offset:1 }}>
                 <img src={value} className="" alt="logo" />
               </Col>
             </Row>

@@ -34,19 +34,19 @@ const Footer = () => {
             <Col xs={12} md={2} className="my-5">
               <h3 className="text">Follow Us</h3>
               <br />
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon size="lg" color="#4267B2" icon={faFacebook}></FontAwesomeIcon>
                 <strong> Facebook</strong>
               </a>
               <br />
               <br />
-              <a href="https://www.twitter.com/">
+              <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon size="lg" color="#1DA1F2" icon={faTwitter}></FontAwesomeIcon>
                 <strong> Twitter</strong>
               </a>
               <br />
               <br />
-              <a href="https://www.linedin.com/">
+              <a href="https://www.linedin.com/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon size="lg" color="#0077b5" icon={faLinkedinIn}></FontAwesomeIcon>
                 <strong> LinkedIn</strong>
               </a>

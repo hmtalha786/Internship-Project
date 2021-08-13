@@ -58,20 +58,20 @@ const Project = () => {
         </Row>
         <Row className="justify-content-md-center my-3">
           <Col xs="auto">
-            <h6>Some of our contributions in the digital world</h6>
+            <h6>Some of our remarkable contributions in the digital world</h6>
           </Col>
         </Row>
 
         <br />
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto">
-            <a href="#">
-              <img variant="top" src={P1} alt="NAEQUO" />
+          <Col xs={12} md={2} className="mx-auto my-3">
+            <a href="#" target="_blank" rel="noreferrer">
+              <img src={P1} alt="NAEQUO" />
             </a>
           </Col>
 
-          <Col xs={12} md={8}>
+          <Col xs={12} md={8} className="my-3">
             <h3 className="text">NAEQUO</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
@@ -83,18 +83,13 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto">
-            <a href="#">
-              <img
-                variant="top"
-                src={P4}
-                style={{ width: "100%" }}
-                alt="Turz Hub"
-              />
+          <Col xs={12} md={2} className="mx-auto my-3">
+            <a href="#" target="_blank" rel="noreferrer">
+              <img src={P4} style={{ width: "100%" }} alt="Turz Hub" />
             </a>
           </Col>
 
-          <Col xs={12} md={8}>
+          <Col xs={12} md={8} className="my-3">
             <h3 className="text">Turz Hub</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
@@ -106,18 +101,13 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto">
-            <a href="#">
-              <img
-                variant="top"
-                src={P3}
-                style={{ width: "70%" }}
-                alt="Quetry"
-              />
+          <Col xs={12} md={2} className="mx-auto my-3">
+            <a href="#" target="_blank" rel="noreferrer">
+              <img src={P3} style={{ width: "70%" }} alt="Quetry" />
             </a>
           </Col>
 
-          <Col xs={12} md={8}>
+          <Col xs={12} md={8} className="my-3">
             <h3 className="text">Quetry</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
@@ -129,12 +119,12 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto">
-            <a href="#">
+          <Col xs={12} md={2} className="mx-auto my-3">
+            <a href="https://snoonu.com/" target="_blank" rel="noreferrer">
               <img src={P5} style={{ width: "70%" }} alt="Snoonu" />
             </a>
           </Col>
-          <Col xs={12} md={8}>
+          <Col xs={12} md={8} className="my-3">
             <h3 className="text">Snoonu</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas

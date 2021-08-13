@@ -2,7 +2,8 @@ import React from "react";
 import "../css/who.css";
 import innovation from "../images/innovation.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Who = () => {
   return (
@@ -24,13 +25,11 @@ const Who = () => {
                 turning entrepreneurial dreams into reality. However, ask us
                 about our most valuable product, and we will say It's our team.
               </p>
-              <p>
-                We're who take responsibility and pride in the way we work & we
-                will not only develop your software but help you set your
-                direction right to get the most out of your software because
-                only then technology would serve humanity to achieve it's full
-                potential.
-              </p>
+              <Link to="/about">
+              <Button variant="outline-danger" type="submit">
+                <strong>Read More</strong>
+              </Button>
+            </Link>
             </Col>
           </Row>
         </Container>

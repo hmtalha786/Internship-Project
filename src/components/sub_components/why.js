@@ -47,27 +47,27 @@ const Why = () => {
       </Container>
 
       <Container>
-        <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <img src={choose} className="" alt="logo" />
+        <Row className="justify-content-md-center my-3">
+          <Col xs={12} md={4} className="my-3">
+            <img src={choose} alt="logo" />
           </Col>
-          <Col xs={12} md={6}>
-            <h3 className="text">Why us</h3>
+          <Col xs={12} md={6} className="my-3">
+            <h3 className="text">Why choose us</h3>
             <p>
               We strive to find new ways to solve problems untill we achieve our
               destiny. We are unique to effectively adopt modern cutting edge
               technologies to fulfill the needs of modern world. Look no
               further, We are here to guide and solve your problems in the
-              digital world
+              digital world.
             </p>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <img src={mission} className="" alt="logo" />
+          <Col xs={12} md={4} className="my-3">
+            <img src={mission} alt="logo" />
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="my-3">
             <h3 className="text">Our Mission</h3>
             <p>
               Our mission is to empower visionaries to transform their ideas
@@ -79,10 +79,10 @@ const Why = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4}>
-            <img src={idealogy} className="" alt="logo" />
+          <Col xs={12} md={4} className="my-3">
+            <img src={idealogy} alt="logo" />
           </Col>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="my-3">
             <h3 className="text">Our Idealogy</h3>
             <p>
               We are driven by our values & principles. At ScientificBit, we
