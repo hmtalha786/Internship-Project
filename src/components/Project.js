@@ -88,7 +88,7 @@ const Project = () => {
               <img
                 variant="top"
                 src={P4}
-                style={{ width: "120%" }}
+                style={{ width: "100%" }}
                 alt="Turz Hub"
               />
             </a>
