@@ -21,8 +21,8 @@ a {
 
 .fixed {
     position: fixed;
-    bottom: 70px;
-    right: 50px;
+    bottom: 15px;
+    right: 0px;
     width: 50px;
     
 }
