@@ -24,10 +24,11 @@ const Footer = () => {
               <h6>Software solutions and Services</h6>
               <br />
               <p>
-                ScientificBit is an information technology, consulting, and
-                business solutions company that helps enterprises use innovation
-                and emerging technologies to digitally transform their
-                businesses.
+              Scientific Bit (Private) Limited started with the aim to put core
+              software engineering into practice by building some in-house
+              solutions and providing innovative solutions to our customers.
+              Scientific Bit is founded by three Techies, having 16 years of
+              Software development experience.
               </p>
             </Col>
 

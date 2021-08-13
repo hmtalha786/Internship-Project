@@ -24,14 +24,14 @@ const What = () => {
         </Row>
 
         <Row className="justify-content-md-center">
-          <Col xs="auto">
+          <Col xs="auto text-center">
             <p>
-              From pure research to building large scale distributed systems,
-              our expertise are broad yet focused.
+              We're always putting our best foot forward to create good quality
+              software apps. Our team has experience is following areas:
             </p>
           </Col>
         </Row>
-        
+
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4} className="my-5">
             <img src={web} alt="logo" />
@@ -74,7 +74,7 @@ const What = () => {
             </Link>
           </Col>
         </Row>
-        
+
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4} className="my-5">
             <img src={seo} alt="logo" />
@@ -96,7 +96,7 @@ const What = () => {
             </Link>
           </Col>
         </Row>
-        <br/>
+        <br />
       </Container>
     </div>
   );
