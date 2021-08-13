@@ -17,7 +17,7 @@ const Footer = () => {
         <br />
         <Container>
           <Row className="justify-content-md-center">
-            <Col xs={12} md={5} className="my-5">
+            <Col xs={12} md={5} className="my-3">
               <h2 className="">
                 Scientific<strong className="red">bit</strong>
               </h2>
@@ -31,7 +31,7 @@ const Footer = () => {
               </p>
             </Col>
 
-            <Col xs={12} md={2} className="my-5">
+            <Col xs={12} md={2} className="my-3">
               <h4 className="text">Follow Us</h4>
               <br />
               <a
@@ -77,7 +77,7 @@ const Footer = () => {
               <br />
             </Col>
 
-            <Col xs={12} md={5} className="my-5">
+            <Col xs={12} md={5} className="my-3">
               <h4 className="text">CONTACT US</h4>
               <br />
 
