@@ -64,7 +64,7 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto my-3">
+          <Col xs={12} md={2} className="mx-auto text-center my-3">
             <a href="https://inaequo.net/" target="_blank" rel="noreferrer">
               <img src={P1} alt="Inaequo Solutions" />
             </a>
@@ -93,7 +93,7 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto my-3">
+          <Col xs={12} md={2} className="mx-auto text-center my-3">
             <br />
             <a href="https://shipr.express/." target="_blank" rel="noreferrer">
               <img src={P2} style={{ width: "100%" }} alt="Shiper" />
@@ -112,7 +112,7 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto my-3">
+          <Col xs={12} md={2} className="mx-auto text-center my-3">
             <br />
             <a href="https://quantree.co/public." target="_blank" rel="noreferrer">
               <img src={P3} style={{ width: "100%" }} alt="Quantree" />
@@ -132,7 +132,7 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto mb-3">
+          <Col xs={12} md={2} className="mx-auto text-center mb-3">
             <a href="https://snoonu.com/" target="_blank" rel="noreferrer">
               <img src={P5} style={{ width: "100%" }} alt="Snoonu" />
             </a>
@@ -150,7 +150,7 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={2} className="mx-auto my-3">
+          <Col xs={12} md={2} className="mx-auto text-center my-3">
             <a href="#" target="_blank" rel="noreferrer">
               <img src={P4} style={{ width: "100%" }} alt="Turz Hub" />
             </a>

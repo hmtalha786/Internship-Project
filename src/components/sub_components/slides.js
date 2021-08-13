@@ -29,7 +29,7 @@ const Slides = () => {
                   reality.
                 </p>
               </Col>
-              <Col xs={12} md={{ span:5, offset:1 }}>
+              <Col xs={12} md={{ span:5, offset:1 }} className="mx-auto text-center">
                 <img src={business} className="" alt="logo" />
               </Col>
             </Row>
@@ -54,7 +54,7 @@ const Slides = () => {
                   services focused on new digital skills and technologies.
                 </p>
               </Col>
-              <Col xs={12} md={{ span:5, offset:1 }}>
+              <Col xs={12} md={{ span:5, offset:1 }} className="mx-auto text-center">
                 <img src={solutions} className="" alt="logo" />
               </Col>
             </Row>
@@ -77,7 +77,7 @@ const Slides = () => {
                   without degrading the user experience
                 </p>
               </Col>
-              <Col xs={12} md={{ span:5, offset:1 }}>
+              <Col xs={12} md={{ span:5, offset:1 }} className="mx-auto text-center">
                 <img src={value} className="" alt="logo" />
               </Col>
             </Row>

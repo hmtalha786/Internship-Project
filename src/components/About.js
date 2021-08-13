@@ -1,6 +1,5 @@
 import React from "react";
 import team from "./images/team.svg";
-import choose from "./images/choose.svg";
 import mission from "./images/mission.svg";
 import idealogy from "./images/idealogy.svg";
 import innovation from "./images/innovation.svg";
@@ -14,7 +13,7 @@ const About = () => {
       <br />
       <Container>
         <Row className="justify-content-md-center">
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="mx-auto text-center">
             <img src={innovation} className="" alt="logo" />
           </Col>
           <Col xs={12} md={6}>
@@ -40,7 +39,7 @@ const About = () => {
 
       <Container>
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="mx-auto text-center">
             <img src={team} className="" alt="logo" />
           </Col>
           <Col xs={12} md={6}>
@@ -61,24 +60,9 @@ const About = () => {
       </Container>
       
       <Container>
-        <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4} className="my-3">
-            <img src={choose} alt="logo" />
-          </Col>
-          <Col xs={12} md={6} className="my-3">
-            <h3 className="text">Passion</h3>
-            <p>
-              We strive to find new ways to solve problems untill we achieve our
-              destiny. We are unique to effectively adopt modern cutting edge
-              technologies to fulfill the needs of modern world. Look no
-              further, We are here to guide and solve your problems in the
-              digital world
-            </p>
-          </Col>
-        </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4} className="my-3">
+          <Col xs={12} md={4} className="mx-auto text-center my-3">
             <img src={mission} alt="logo" />
           </Col>
           <Col xs={12} md={6} className="my-3">
@@ -93,7 +77,7 @@ const About = () => {
         </Row>
 
         <Row className="justify-content-md-center my-5">
-          <Col xs={12} md={4} className="my-3">
+          <Col xs={12} md={4} className="mx-auto text-center my-3">
             <img src={idealogy} alt="logo" />
           </Col>
           <Col xs={12} md={6} className="my-3">
