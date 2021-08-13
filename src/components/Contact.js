@@ -39,17 +39,25 @@ const Contact = () => {
 
             <Row className="justify-content-md-center">
               <Col xs="auto">
-                <h6>
-                  <GoLocation size={30} color={"firebrick"}/> Gulistan-e-Johar, Karachi, Sindh, Pakistan
-                </h6>
-                <br />
-                <h6>
-                  <GoMail size={30} color={"firebrick"}/> info@scientificbit
-                </h6>
-                <br />
-                <h6>
-                  <FiPhoneCall size={30} color={"firebrick"}/> +92-3003926373
-                </h6>
+              <div>
+              <GoLocation size={30} color={"firebrick"} />
+              <strong className="item">Gulistan-e-Johar,
+                Karachi, Sindh, Pakistan</strong>
+              </div>
+
+              <br />
+
+              <div>
+              <GoMail size={30} color={"firebrick"} />
+              <strong className="item">info@scientificbit.com</strong>
+              </div>
+
+              <br />
+
+              <div>
+                <FiPhoneCall size={30} color={"firebrick"} />
+                <strong className="item">+92-3003926373</strong>
+              </div>
               </Col>
             </Row>
           </Col>
