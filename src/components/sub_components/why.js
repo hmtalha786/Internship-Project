@@ -224,7 +224,7 @@ const Why = () => {
                 variant="top"
                 className=" mx-auto mt-5"
                 src={Bootstrap}
-                style={{ width: "45%" }}
+                style={{ width: "46%" }}
                 alt="Bootstrap"
               />
               <Card.Body>
@@ -244,7 +244,7 @@ const Why = () => {
                 variant="top"
                 className=" mx-auto mt-5"
                 src={Python}
-                style={{ width: "40%" }}
+                style={{ width: "41%" }}
                 alt="Python"
               />
               <Card.Body>
