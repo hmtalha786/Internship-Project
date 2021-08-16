@@ -136,18 +136,6 @@ const Why = () => {
             <img src={Python} style={{ width: "26%" }} alt="Python" />
             <h6 className="my-3">Python</h6>
           </Col>
-
-          {/* <Col xs="auto">
-          <img src={ReactJs} style={{ width: "10%" }} alt="React" />
-          <img src={Angular} style={{ width: "6%" }} alt="Angular" />
-          <img src={Vue} style={{ width: "6%" }} alt="Vue" />
-          <img src={Node} style={{ width: "6%" }} alt="Node" />
-          <img src={Net} style={{ width: "6%" }} alt=".Net" />
-          <img src={Laravel} style={{ width: "6%" }} alt="Laravel" />
-          <img src={Bootstrap} style={{ width: "6%" }} alt="Bootstrap" />
-          <img src={Flutter} style={{ width: "6%" }} alt="Flutter" />
-          <img src={Python} style={{ width: "6%" }} alt="Python" />
-          </Col> */}
         </Row>
 
         <Row className="justify-content-md-center mx-auto text-center">
@@ -158,28 +146,7 @@ const Why = () => {
           </Link>
         </Row>
 
-        <br/>
-
-        {/* <Row className="justify-content-md-center">
-          <Col xs={12} md={6} className="mx-auto text-center my-5">
-            <img src={technical} style={{ width: "60%" }} alt="logo" />
-          </Col>
-          <Col xs={12} md={6}>
-            <h3 className="text">Our Tech Stack</h3>
-            <br />
-            <ul>
-              <li>.Net & .NET Core</li>
-              <li>React.JS</li>
-              <li>Node.JS</li>
-              <li>Python</li>
-              <li>Bootstrap/HTML</li>
-              <li>Angular & Angular JS</li>
-              <li>Vue.js</li>
-              <li>PHP/Laravel</li>
-              <li>Flutter</li>
-            </ul>
-          </Col>
-        </Row> */}
+        <br />
 
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={4} className="mx-auto text-center my-3">
