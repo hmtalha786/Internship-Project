@@ -66,176 +66,248 @@ const Why = () => {
 
         <Row className="justify-content-md-center">
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
-            >
-              <Card.Img
-                variant="top"
-                src={ReactJs}
-                className="mx-auto my-5"
-                style={{ width: "35%" }}
-                alt="React"
-              />
-            </Card>
+            <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  src={ReactJs}
+                  className="mx-auto mt-4"
+                  style={{ width: "35%" }}
+                  alt="React"
+                />
+                <Card.Body>
+                  <h6>React Js</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
 
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
-            >
-              <Card.Img
-                variant="top"
-                src={Angular}
-                className="mx-auto my-5"
-                style={{ width: "30%" }}
-                alt="Angular"
-              />
-            </Card>
+            <a href="https://angular.io/" target="_blank" rel="noreferrer">
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  src={Angular}
+                  className="mx-auto mt-4"
+                  style={{ width: "30%" }}
+                  alt="Angular"
+                />
+                <Card.Body>
+                  <h6>Angular Js</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
 
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
-            >
-              <Card.Img
-                variant="top"
-                src={Vue}
-                className="mx-auto my-5"
-                style={{ width: "37%" }}
-                alt="Vue"
-              />
-            </Card>
+            <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  src={Vue}
+                  className="mx-auto mt-4"
+                  style={{ width: "37%" }}
+                  alt="Vue"
+                />
+                <Card.Body>
+                  <h6>Vue Js</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
 
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
-            >
-              <Card.Img
-                variant="top"
-                src={Flutter}
-                className="mx-auto my-5"
-                style={{ width: "32%" }}
-                alt="Flutter"
-              />
-            </Card>
+            <a href="https://flutter.dev/" target="_blank" rel="noreferrer">
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  src={Flutter}
+                  className="mx-auto mt-4"
+                  style={{ width: "32%" }}
+                  alt="Flutter"
+                />
+                <Card.Body>
+                  <h6>Flutter</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
+            <a
+              href="https://www.apple.com/ios/ios-14/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <Card.Img
-                variant="top"
-                className=" mx-auto my-5"
-                src={IOS}
-                style={{ width: "31%" }}
-                alt="IOS"
-              />
-            </Card>
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  className=" mx-auto mt-4"
+                  src={IOS}
+                  style={{ width: "32%" }}
+                  alt="IOS"
+                />
+                <Card.Body>
+                  <h6>iOS</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
+
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
+            <a
+              href="https://getbootstrap.com/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <Card.Img
-                variant="top"
-                className=" mx-auto my-5"
-                src={Bootstrap}
-                style={{ width: "39%" }}
-                alt="Bootstrap"
-              />
-            </Card>
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  className=" mx-auto mt-4"
+                  src={Bootstrap}
+                  style={{ width: "40%" }}
+                  alt="Bootstrap"
+                />
+                <Card.Body>
+                  <h6>Bootstrap</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center">
-        <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
+          <Col xs={6} md={2} className="text-center my-3">
+            <a
+              href="https://www.javascript.com/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <Card.Img
-                variant="top"
-                className=" mx-auto my-5"
-                src={JavaScript}
-                style={{ width: "31%" }}
-                alt="JavaScript"
-              />
-            </Card>
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  className=" mx-auto mt-4"
+                  src={JavaScript}
+                  style={{ width: "31%" }}
+                  alt="JavaScript"
+                />
+                <Card.Body>
+                  <h6>JavaScript</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
-            >
-              <Card.Img
-                variant="top"
-                src={Node}
-                className=" mx-auto my-5"
-                style={{ width: "51%" }}
-                alt="Node"
-              />
-            </Card>
+            <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  src={Node}
+                  className=" mx-auto mt-4"
+                  style={{ width: "51%" }}
+                  alt="Node"
+                />
+                <Card.Body>
+                  <h6>Node Js</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
 
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
-            >
-              <Card.Img
-                variant="top"
-                className=" mx-auto my-5"
-                src={Laravel}
-                style={{ width: "31%" }}
-                alt="Laravel"
-              />
-            </Card>
+            <a href="https://laravel.com/" target="_blank" rel="noreferrer">
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  className=" mx-auto mt-4"
+                  src={Laravel}
+                  style={{ width: "30%" }}
+                  alt="Laravel"
+                />
+                <Card.Body>
+                  <h6>Laravel</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
           <Col xs={6} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
+            <a
+              href="https://dotnet.microsoft.com/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <Card.Img
-                variant="top"
-                className=" mx-auto my-5"
-                src={Net}
-                style={{ width: "31%" }}
-                alt=".Net"
-              />
-            </Card>
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  className=" mx-auto mt-4"
+                  src={Net}
+                  style={{ width: "31%" }}
+                  alt=".Net"
+                />
+                <Card.Body>
+                  <h6>.NET Core</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
           <Col xs={12} md={2} className="text-center my-3">
-            <Card
-              style={{ width: "10rem" }}
-              className="mx-auto"
-              border="danger"
-            >
-              <Card.Img
-                variant="top"
-                className=" mx-auto my-5"
-                src={Python}
-                style={{ width: "31%" }}
-                alt="Python"
-              />
-            </Card>
+            <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+              <Card
+                style={{ width: "10rem" }}
+                className="mx-auto"
+                border="danger"
+              >
+                <Card.Img
+                  variant="top"
+                  className=" mx-auto mt-4"
+                  src={Python}
+                  style={{ width: "31%" }}
+                  alt="Python"
+                />
+                <Card.Body>
+                  <h6>Python</h6>
+                </Card.Body>
+              </Card>
+            </a>
           </Col>
         </Row>
 

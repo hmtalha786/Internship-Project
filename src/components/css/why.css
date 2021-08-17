@@ -6,6 +6,11 @@
     background-color: #FAFAFA;
 }
 
+.card {
+    text-decoration: none;
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 firebrick;
+    color: firebrick;
 }
