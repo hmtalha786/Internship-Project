@@ -58,373 +58,196 @@ const Why = () => {
       </Container>
 
       <Container>
-        <Row className="justify-content-md-center mb-5">
+        <Row className="justify-content-md-center my-5">
           <Col xs={12} className="text-center">
             <h3 className="text text-center">Our Tech Stack</h3>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center">
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
                 src={ReactJs}
-                className="mt-3"
-                style={{ width: "15%", marginLeft: "15px" }}
+                className="mx-auto my-5"
+                style={{ width: "35%" }}
                 alt="React"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">React. Js</h6>
-                  <p>
-                    React is a free and open-source front-end JavaScript library
-                    for building user interfaces or UI components. It is
-                    maintained by Facebook and community.
-                  </p>
-                </Card.Text>
-                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
 
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
                 src={Angular}
-                className="mt-3"
-                style={{ width: "13%", marginLeft: "17px" }}
+                className="mx-auto my-5"
+                style={{ width: "30%" }}
                 alt="Angular"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">Angular Js</h6>
-                  <p>
-                    Angular is a TypeScript-based free and open-source web
-                    application framework led by the Angular Team at Google and
-                    by a community of individuals and corporations.
-                  </p>
-                </Card.Text>
-                <a href="https://angular.io/" target="_blank" rel="noreferrer">
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
 
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
                 src={Vue}
-                className="mt-3"
-                style={{ width: "16%", marginLeft: "15px" }}
+                className="mx-auto my-5"
+                style={{ width: "37%" }}
                 alt="Vue"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">Vue. Js</h6>
-                  <p>
-                    Vue.js is an open-source model–view–viewmodel front end
-                    JavaScript framework for building user interfaces and
-                    single-page applications. It was created by Evan You.
-                  </p>
-                </Card.Text>
-                <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-
-        <Row className="justify-content-md-center">
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
-              <Card.Img
-                variant="top"
-                src={IOS}
-                className="mt-3"
-                style={{ width: "14%", marginLeft: "15px" }}
-                alt="Vue"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">iOS</h6>
-                  <p>
-                    iOS (formerly iPhone OS) is a mobile operating system
-                    created and developed by Apple Inc. that powers iPhone and
-                    iPod Touch, Apple Smart Watch etc.
-                  </p>
-                </Card.Text>
-                <a
-                  href="https://www.apple.com/ios/ios-14/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
 
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
-              <Card.Img
-                variant="top"
-                src={ReactJs}
-                className="mt-3"
-                style={{ width: "15%", marginLeft: "15px" }}
-                alt="React"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">React Native</h6>
-                  <p>
-                    React Native is an open-source mobile application framework
-                    created by Facebook, Inc. It is used to develop applications
-                    for Android, iOS, Web using React's framework.
-                  </p>
-                </Card.Text>
-                <a
-                  href="https://reactnative.dev/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
                 src={Flutter}
-                className="mt-3"
-                style={{ width: "13%", marginLeft: "15px" }}
-                alt="Angular"
+                className="mx-auto my-5"
+                style={{ width: "32%" }}
+                alt="Flutter"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">Flutter</h6>
-                  <p>
-                    Flutter is an open-source UI software development kit
-                    created by Google. It uses Dart and can be used to develop
-                    cross platform applications.
-                  </p>
-                </Card.Text>
-                <a href="https://flutter.dev/" target="_blank" rel="noreferrer">
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
-        </Row>
-
-        <Row className="justify-content-md-center">
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
-                src={JavaScript}
-                className="mt-3"
-                style={{ width: "14%", marginLeft: "15px" }}
-                alt="React"
+                className=" mx-auto my-5"
+                src={IOS}
+                style={{ width: "31%" }}
+                alt="IOS"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">JavaScript</h6>
-                  <p>
-                    JavaScript, often abbreviated as JS, is a programming
-                    language that conforms to the ECMAScript specification.
-                    JavaScript is high-level, often just-in-time compiled.
-                  </p>
-                </Card.Text>
-                <a
-                  href="https://www.javascript.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
-
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
+                className=" mx-auto my-5"
                 src={Bootstrap}
-                className="mt-3"
-                style={{ width: "17%", marginLeft: "15px" }}
-                alt="Angular"
+                style={{ width: "39%" }}
+                alt="Bootstrap"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">Bootstrap</h6>
-                  <p>
-                    Bootstrap is a free and open-source CSS framework directed
-                    at responsive, mobile-first front-end web development. It
-                    contains CSS and JavaScript-based components.
-                  </p>
-                </Card.Text>
-                <a
-                  href="https://getbootstrap.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
-              <Card.Img
-                variant="top"
-                src={Python}
-                className="mt-3"
-                style={{ width: "14%", marginLeft: "15px" }}
-                alt="Vue"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">Python</h6>
-                  <p>
-                    Python is an interpreted high-level general-purpose
-                    programming language. Python's design philosophy emphasizes
-                    code readability with significant indentation.
-                  </p>
-                </Card.Text>
-                <a
-                  href="https://www.python.org/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center">
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+        <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
-                src={Net}
-                className="mt-3"
-                style={{ width: "13%", marginLeft: "15px" }}
-                alt="React"
+                className=" mx-auto my-5"
+                src={JavaScript}
+                style={{ width: "31%" }}
+                alt="JavaScript"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">.Net & .NET Core</h6>
-                  <p>
-                    .NET is a free and open-source, managed computer software
-                    framework for Windows, Linux, and macOS operating systems.
-                    It is a cross-platform successor to .NET Framework.
-                  </p>
-                </Card.Text>
-                <a
-                  href="https://dotnet.microsoft.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
-
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
                 src={Node}
-                className="mt-3"
-                style={{ width: "21%", marginLeft: "15px" }}
-                alt="Angular"
+                className=" mx-auto my-5"
+                style={{ width: "51%" }}
+                alt="Node"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">Node Js</h6>
-                  <p>
-                    Node.js is an open-source, cross-platform, back-end
-                    JavaScript runtime environment that runs on the V8 engine
-                    and executes JavaScript code outside a web browser.
-                  </p>
-                </Card.Text>
-                <a
-                  href="https://nodejs.org/en/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
             </Card>
           </Col>
 
-          <Col xs={12} md={4} className="my-3">
-            <Card className="" border="danger">
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
               <Card.Img
                 variant="top"
+                className=" mx-auto my-5"
                 src={Laravel}
-                className="mt-3"
-                style={{ width: "12%", marginLeft: "15px" }}
-                alt="Vue"
+                style={{ width: "31%" }}
+                alt="Laravel"
               />
-              <Card.Body>
-                <Card.Text>
-                  <h6 className="text">PHP / Laravel</h6>
-                  <p>
-                    Laravel is a free, open-source PHP web framework, created by
-                    Taylor Otwell and intended for the development of web apps
-                    following the MVC architectural pattern.
-                  </p>
-                </Card.Text>
-                <a href="https://laravel.com/" target="_blank" rel="noreferrer">
-                  <Button variant="outline-danger">
-                    <strong>See More</strong>
-                  </Button>
-                </a>
-              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={6} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
+              <Card.Img
+                variant="top"
+                className=" mx-auto my-5"
+                src={Net}
+                style={{ width: "31%" }}
+                alt=".Net"
+              />
+            </Card>
+          </Col>
+          <Col xs={12} md={2} className="text-center my-3">
+            <Card
+              style={{ width: "10rem" }}
+              className="mx-auto"
+              border="danger"
+            >
+              <Card.Img
+                variant="top"
+                className=" mx-auto my-5"
+                src={Python}
+                style={{ width: "31%" }}
+                alt="Python"
+              />
             </Card>
           </Col>
         </Row>
 
-        <br />
+        <Row className="justify-content-md-center mx-auto text-center">
+          <Col md={3} className="mx-auto my-5">
+            <Link to="/services">
+              <Button variant="outline-danger" type="submit">
+                <strong>See More</strong>
+              </Button>
+            </Link>
+          </Col>
+        </Row>
 
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={5} className="text-center mx-auto my-3">
