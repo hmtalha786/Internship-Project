@@ -18,13 +18,13 @@ const Project = () => {
         <br />
         <br />
         <Row className="justify-content-md-center my-3">
-          <Col xs="auto">
+          <Col xs="auto" className="mx-auto">
             <h3 className="text">Contributions & Projects</h3>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center my-3">
-          <Col xs="auto">
+          <Col xs="auto" className="mx-auto">
             <h6>We set the platform to turn great ideas into reality</h6>
           </Col>
         </Row>
@@ -114,7 +114,11 @@ const Project = () => {
         <Row className="justify-content-md-center my-5">
           <Col xs={12} md={2} className="mx-auto text-center my-3">
             <br />
-            <a href="https://quantree.co/public." target="_blank" rel="noreferrer">
+            <a
+              href="https://quantree.co/public."
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={P3} style={{ width: "100%" }} alt="Quantree" />
             </a>
           </Col>

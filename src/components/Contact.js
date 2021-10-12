@@ -10,26 +10,26 @@ const Contact = () => {
       <br />
       <Container>
         <Row className="justify-content-md-center my-3">
-          <Col xs="auto">
+          <Col xs="auto" className="mx-auto">
             <h3 className="text">Feel Free to Contact Us</h3>
           </Col>
         </Row>
         <Row className="justify-content-md-center my-3">
-          <Col xs="auto">
+          <Col xs="auto" className="mx-auto text-center" >
             <h6>Our door are always open for your valuable insights.</h6>
           </Col>
         </Row>
-        
+
         <Row className="justify-content-md-center">
           <Col xs={12} md={6} className="my-5">
             <Row className="justify-content-md-center">
-              <Col xs="auto">
+              <Col xs="auto" className="mx-auto">
                 <h3 className="text">Contact Information</h3>
               </Col>
             </Row>
 
             <Row className="justify-content-md-center">
-              <Col xs="auto">
+              <Col xs="auto" className="mx-auto">
                 <h6>We would love to hear from you</h6>
               </Col>
             </Row>
@@ -39,25 +39,26 @@ const Contact = () => {
 
             <Row className="justify-content-md-center">
               <Col xs="auto">
-              <div>
-              <GoLocation size={30} color={"firebrick"} />
-              <strong className="item">Gulistan-e-Johar,
-                Karachi, Sindh, Pakistan</strong>
-              </div>
+                <div>
+                  <GoLocation size={30} color={"firebrick"} />
+                  <strong className="item">
+                    Gulistan-e-Johar, Karachi, Sindh, Pakistan
+                  </strong>
+                </div>
 
-              <br />
+                <br />
 
-              <div>
-              <GoMail size={30} color={"firebrick"} />
-              <strong className="item">info@scientificbit.com</strong>
-              </div>
+                <div>
+                  <GoMail size={30} color={"firebrick"} />
+                  <strong className="item">info@scientificbit.com</strong>
+                </div>
 
-              <br />
+                <br />
 
-              <div>
-                <FiPhoneCall size={30} color={"firebrick"} />
-                <strong className="item">+92-3003926373</strong>
-              </div>
+                <div>
+                  <FiPhoneCall size={30} color={"firebrick"} />
+                  <strong className="item">+92-3003926373</strong>
+                </div>
               </Col>
             </Row>
           </Col>

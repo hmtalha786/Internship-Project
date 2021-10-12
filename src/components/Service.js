@@ -15,13 +15,13 @@ const Service = () => {
       <br />
       <Container>
         <Row className="justify-content-md-center my-3">
-          <Col xs="auto">
+          <Col xs="auto" className="mx-auto">
             <h3 className="text">Our Services</h3>
           </Col>
         </Row>
 
         <Row className="justify-content-md-center my-3">
-          <Col xs="auto">
+          <Col xs="auto" className="mx-auto">
             <h6>We set the platform to turn great ideas into reality</h6>
           </Col>
         </Row>
