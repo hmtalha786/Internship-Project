@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import P2 from "./images/P2.png";
 import P3 from "./images/P3.png";
 import P4 from "./images/P4.jpeg";
@@ -20,32 +20,33 @@ import Patient from "./images/Patient.jpg";
 import Prongo from "./images/prongo.jpg";
 import PTA from "./images/PTA.jpg";
 
-import { Col, Container, Row, Card } from "react-bootstrap";
+import { Col, Container, Row, Card, Button } from "react-bootstrap";
 
 const Project = () => {
+  const [Display, setDisplay] = useState(false);
   return (
     <div>
       <br />
       <br />
-      <br />
+      
 
-      <Container fluid className="body">
+      <Container fluid>
+        {/* <br />
         <br />
-        <br />
-        <br />
-        <Row className="justify-content-md-center my-3">
+        <br /> */}
+        {/* <Row className="justify-content-md-center my-3">
           <Col xs="auto" className="mx-auto">
             <h3 className="text">Contributions & Projects</h3>
           </Col>
-        </Row>
+        </Row> */}
 
-        <Row className="justify-content-md-center my-3">
+        {/* <Row className="justify-content-md-center my-3">
           <Col xs="auto" className="mx-auto">
             <h6>We set the platform to turn great ideas into reality</h6>
           </Col>
-        </Row>
+        </Row> */}
 
-        <Row className="justify-content-md-center my-5">
+        {/* <Row className="justify-content-md-center my-5">
           <Col xs={3} className="text-center">
             <h6 className="text">Clients</h6>
             <strong>36</strong>
@@ -64,7 +65,7 @@ const Project = () => {
           </Col>
         </Row>
         <br />
-        <br />
+        <br /> */}
       </Container>
 
       <Container>
@@ -168,7 +169,15 @@ const Project = () => {
         </Row>
 
         <Row className="justify-content-md-center">
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/jm/app/cabsnapper/id883310357"
               target="_blank"
@@ -193,7 +202,15 @@ const Project = () => {
             </a>
           </Col>
 
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/us/app/patient-voice-caregiver/id1330607385"
               target="_blank"
@@ -243,7 +260,15 @@ const Project = () => {
             </a>
           </Col>
 
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/us/app/cvsa-out-of-service-criteria/id1424204784"
               target="_blank"
@@ -318,7 +343,15 @@ const Project = () => {
             </a>
           </Col>
 
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/pk/app/team-nabila/id1512783448"
               target="_blank"
@@ -343,7 +376,15 @@ const Project = () => {
             </a>
           </Col>
 
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/pk/app/fyxify-pro/id1496668341"
               target="_blank"
@@ -368,7 +409,15 @@ const Project = () => {
             </a>
           </Col>
 
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/sa/app/marn-kds/id1489595827"
               target="_blank"
@@ -392,7 +441,15 @@ const Project = () => {
               </Card>
             </a>
           </Col>
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/sa/app/marn-menu/id1292612468"
               target="_blank"
@@ -416,7 +473,15 @@ const Project = () => {
               </Card>
             </a>
           </Col>
-          <Col xs={6} md={2} className="text-center my-3 mx-auto">
+          <Col
+            xs={6}
+            md={2}
+            className={
+              Display
+                ? "text-center my-3 mx-auto"
+                : "d-none text-center my-3 mx-auto"
+            }
+          >
             <a
               href="https://apps.apple.com/sa/app/marn-restaurant/id1171368719"
               target="_blank"
@@ -487,6 +552,18 @@ const Project = () => {
                 </Card.Body>
               </Card>
             </a>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-md-center mx-auto text-center">
+          <Col md={3} className="mx-auto my-5">
+            <Button
+              variant="outline-danger"
+              type="submit"
+              onClick={() => setDisplay(!Display)}
+            >
+              <strong>See More</strong>
+            </Button>
           </Col>
         </Row>
       </Container>
