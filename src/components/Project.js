@@ -614,7 +614,7 @@ const Project = () => {
                   alt="Vue"
                 />
                 <Card.Body>
-                  <h6>OK Click n Collect</h6>
+                  <h6>Click n Collect</h6>
                 </Card.Body>
               </Card>
             </a>
