@@ -28,45 +28,6 @@ const Project = () => {
     <div>
       <br />
       <br />
-      
-
-      <Container fluid>
-        {/* <br />
-        <br />
-        <br /> */}
-        {/* <Row className="justify-content-md-center my-3">
-          <Col xs="auto" className="mx-auto">
-            <h3 className="text">Contributions & Projects</h3>
-          </Col>
-        </Row> */}
-
-        {/* <Row className="justify-content-md-center my-3">
-          <Col xs="auto" className="mx-auto">
-            <h6>We set the platform to turn great ideas into reality</h6>
-          </Col>
-        </Row> */}
-
-        {/* <Row className="justify-content-md-center my-5">
-          <Col xs={3} className="text-center">
-            <h6 className="text">Clients</h6>
-            <strong>36</strong>
-          </Col>
-          <Col xs={3} className="text-center">
-            <h6 className="text">Completed Projects</h6>
-            <strong>384</strong>
-          </Col>
-          <Col xs={3} className="text-center">
-            <h6 className="text">Under Development</h6>
-            <strong>16</strong>
-          </Col>
-          <Col xs={3} className="text-center">
-            <h6 className="text">Workers</h6>
-            <strong>21</strong>
-          </Col>
-        </Row>
-        <br />
-        <br /> */}
-      </Container>
 
       <Container>
         <Row className="justify-content-md-center my-3">
